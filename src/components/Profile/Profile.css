@@ -1,6 +1,6 @@
 .details-container {
     display: flex;
-    margin-top: 9em;
+    margin-top: 7.5em;
 }
 
 .profile-details-container {
@@ -19,8 +19,9 @@
 
 .profile-pic {
     display: flex;
-    width: 8em;
+    width: 15em;
     height: auto;
+    border-radius: 50px;
 }
 
 .artist-details {
@@ -39,41 +40,6 @@
     font-family: Antic Didone;
 }
 
-.projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: black !important;
-    width: 100%;
-
-}
-
-/* .single-project-container {
-    display: flex;
-    flex-direction: column;
-    background: rgb(225, 239, 244);
-    color: black !important;
-    margin: 2em;
-    padding: 1em;
-    border-radius: 1em;
-    width: 85%;
-}
-
-.projects-container h2{
-    color: black;
-    font-family: 'montserrat';
-}
-
-.single-project-container p{
-    color: black;
-    font-family: 'montserrat';
-}
-
-.single-project-container h3{
-    color: black;
-    font-family: 'montserrat';
-} */
 
 .projects-heading-container{
     display: flex;
@@ -82,6 +48,14 @@
     font-family: Antic Didone;
     font-size: .75em;
     background: rgb(225, 239, 244);
+    width: 100%;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 

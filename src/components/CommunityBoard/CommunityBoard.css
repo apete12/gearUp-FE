@@ -1,23 +1,45 @@
-.all-donation-requests-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 79vw;
-    overflow: auto;
-    height: 39em;
-}
-
 .community-board-container {
     display: flex;
-    margin-top: 8em;
-    flex-direction: row;
-    align-items: flex-start;
-    
+    margin-top: 7.5em;
+    width: 100%;
 }
 
-.no-results {
-    width: 75vw;
+.filter-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin-top: 15em;
+    width: 25%;
+    background: rgb(225, 239, 244);
+    padding: 1em;
+    position: fixed;
+    margin-top: 3em;
 }
 
+.donation-header-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Antic Didone;
+    font-size: .75em;
+    background: rgb(225, 239, 244);
+    width: 100%;
+    position: fixed;
+}
+
+.filter-picture {
+    width: 15em;
+}
+
+.all-donation-requests-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30em;
+    margin-top: 5em;
+}

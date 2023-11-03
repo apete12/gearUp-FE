@@ -8,6 +8,8 @@ import Error from '../Error/Error';
 import Filter from '../Filter/Filter';
 
 
+
+
 const CommunityBoard = () => {
     const { loading, error, data, refetch } = useQuery(LOAD_ARTISTS);
     const [donations, setDonations] = useState({})
@@ -31,7 +33,6 @@ const CommunityBoard = () => {
     }
 
     const artistsWithFilteredPosts = data && donations?.artists
-    // eslint-disable-next-line
     ?.filter(artist => {
       if (!selectedState) {
         return artist
@@ -74,8 +75,15 @@ const CommunityBoard = () => {
 
       return (
         <div className='community-board-container'>
-        <Filter setNoDonationsSearch={setNoDonationsSearch} setFirstProjectSearch={setFirstProjectSearch} noDonationsSearch={noDonationsSearch} firstProjectSearch={firstProjectSearch} selectedState={selectedState} setSelectedState={setSelectedState}/>
-        {allDonationRequests?.length > 0 ? <div className='all-donation-requests-container'>{allDonationRequests}</div> : <p className='no-results'>Sorry, no results found matching your filter criteria. </p>}
+          <div className='filter-container'>
+            <Filter setNoDonationsSearch={setNoDonationsSearch} setFirstProjectSearch={setFirstProjectSearch} noDonationsSearch={noDonationsSearch} firstProjectSearch={firstProjectSearch} selectedState={selectedState} setSelectedState={setSelectedState}/>
+          </div> 
+          <div className='donation-header-container'>
+            <div className='header-container'>
+              <h1>Find an Artist to Support:</h1>
+            </div>
+            {allDonationRequests?.length > 0 ? <div className='all-donation-requests-container'>{allDonationRequests}</div> : <p className='no-results'>Sorry, no results found matching your filter criteria. </p>}
+          </div>
         </div>
       )
 }

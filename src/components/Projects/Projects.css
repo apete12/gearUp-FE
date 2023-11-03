@@ -6,12 +6,21 @@
     margin: 2em;
     padding: 1em;
     border-radius: 1em;
-    width: 85%;
+    width: 100%;
 }
 
 .projects-container h2{
     color: black;
     font-family: 'montserrat';
+}
+
+.single-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black !important;
+    width: 75%;
 }
 
 .single-project-container p{
@@ -23,3 +32,4 @@
     color: black;
     font-family: 'montserrat';
 }
+

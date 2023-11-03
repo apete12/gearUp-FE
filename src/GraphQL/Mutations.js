@@ -1,6 +1,5 @@
 import { gql } from '@apollo/client';
 
-// not working
 export const SUBMIT_DONATION_OFFER = gql`
 mutation CreateDonation(
     $name: String!

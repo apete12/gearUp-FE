@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Preview = () => {
   const { loading, error, data } = useQuery(LOAD_PREVIEW_CONTENT)
+  console.log(data)
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error: {error.message}</p>
   const mostRecentPosts = data.posts.slice(0, 3)

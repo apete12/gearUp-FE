@@ -108,7 +108,7 @@ const handleFormSubmit = (e) => {
                             setAmount(e.target.value)
                                 }}
                         />
-                         <Link className="confirmation-button" to={`/donation-confirmation`}>Submit Your Donation</Link>
+                         <button className='offer-submit-button'>Submit Donation</button>
                         {!isFormValid && (
                     <p className='missing-form-input-notif' >*One or more required fields are missing</p>
                         )}

@@ -11,7 +11,7 @@ const Projects = ({ user } ) => {
   </div> 
   ));
 
-  return <div>{projectsDisplay}</div>;
+  return <div className='single-projects-container'>{projectsDisplay}</div>;
 };
 
 export default Projects;

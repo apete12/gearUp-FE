@@ -7,9 +7,8 @@
 
 h2 {
     font-family: 'montserrat';
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
-    margin-bottom: 5px;
 }
 
 .login-form {
@@ -21,21 +20,30 @@ h2 {
     padding: 2em;
     border-radius: 1em;
     gap: 1em;
-    width: 25em;
-    height: 29em;
+    width: 30%;
+    height: 30%;
 }
 
 .login-form-label {
     font-family: 'montserrat';
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
+    margin-right: .5em;
 }
 
 .form-input {
     font-family: 'montserrat';
-    font-size: 2em;
-    padding: 10px;
-    border-radius: 1em;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: .5em;
+}
+
+.label-input-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
 }
 
 .login-button {
@@ -46,14 +54,14 @@ h2 {
     font-size: 1.8em;
     color: white;
     background: #025779;
-    border-radius: 25px;
+    border-radius: .5em;
     border: none;
     height: 2em;
-    width: 13em;
+    width: 25%;
     margin-bottom: 2em;
     cursor: pointer;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     margin-top: 1em;
 }
 

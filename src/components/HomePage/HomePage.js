@@ -2,7 +2,7 @@ import React from 'react';
 import './HomePage.css';
 import HomeHero from './HomeComponents/HomeHero';
 import Testimony from './HomeComponents/Testimony';
-import Preview from './HomeComponents/Preview';
+// import Preview from './HomeComponents/Preview';
 
 const HomePage = ({loginAccess}) => {
 
@@ -10,7 +10,7 @@ const HomePage = ({loginAccess}) => {
   <>
     <HomeHero loginAccess={loginAccess}/>
     <Testimony/>
-    <Preview/>
+    {/* <Preview/> */}
   </>
   )
 }
