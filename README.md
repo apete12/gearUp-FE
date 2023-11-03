@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Gear Up 
+**Front End Created by [Alex Peterson](https://www.linkedin.com/in/alexandra-peterson-245b65145/) & [Scotty Brown](https://github.com/Scotty-Brown)**\
+**Back End End Created by [Allen Russell](https://github.com/garussell), [Anna Wiley](https://github.com/awiley33), [Andi Lovetto](https://github.com/andilovetto), and [Matt Lim](https://github.com/MatthewTLim)**
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+## 💻 Technologies Used
+  
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript) 
+![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+![Cypress](https://img.shields.io/badge/-Cypress-05122A?style=flat&logo=cypress)
+![React Router](https://img.shields.io/badge/-React_Router-05122A?style=flat&logo=reactrouter)
 
-### `npm start`
+## 📝 Description
+Gear Up is a groundbreaking app that empowers artists of all kinds, whether musicians, painters, sculptors, or creators of any craft, to bring their innovative projects to life. With Gear Up, users can easily create and share their project ideas, and then invite a community of supporters to contribute and fund their artistic ventures. It's a platform where artists can showcase their creativity, connect with a passionate audience, and receive the financial backing they need to make their dreams a reality. Meanwhile, those who appreciate the arts can explore a wide range of projects, lend their support, and help artists flourish by contributing funds directly through the app. Gear Up is where artistic vision meets financial opportunity, fostering a dynamic ecosystem for the creative community to thrive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧑‍💻 How To View This Front End Code In Action
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+# Clone this repo to your local machine by running:
+git clone git@github.com:apete12/gearUp-FE.git
 
-### `npm test`
+# Cd into the root directory 
+cd gearUp-FE
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Install dependencies 
+npm install
 
-### `npm run build`
+# Run the start script
+npm start
+```
+.....OR:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+See the deployed project [here](https://gear-up-fe.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📚 Learning Goals
+The learning goals for this project was to collaborate with a BE team and implement a new technology. Our team decided to use GraphQL for data sharing between the FE and BE.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 📸 Screenshots
+<details open>
+  <summary> ⚙️ Functionality </summary>
+  
+  | Description | Screenshot |
+  |------------ | -----------|
+  | <h3 align="center">Home Page | <img width="1417" alt="Screenshot 2023-11-03 at 11 48 23 AM" src="https://github.com/apete12/accessible-adventures/assets/104571445/5c83fc41-412e-4a1f-aea4-d87512367005"> <img width="1420" alt="Screenshot 2023-11-03 at 11 48 38 AM" src="https://github.com/apete12/accessible-adventures/assets/104571445/6e6903f8-7271-4eee-a9d6-80653f7a5d28">
+  | <h3 align="center">Community Board | <img width="1418" alt="Screenshot 2023-11-03 at 11 50 29 AM" src="https://github.com/apete12/accessible-adventures/assets/104571445/16c6c712-10b2-465d-8c6f-c35eb118c115">
+  | <h3 align="center">Profile | <img width="1418" alt="Screenshot 2023-11-03 at 11 50 55 AM" src="https://github.com/apete12/gearUp-FE/assets/104571445/f8c58a3a-709c-4fea-8c1f-c8b1cb00d8c9">
+   | <h3 align="center">Request Donation| <img width="1423" alt="Screenshot 2023-11-03 at 11 51 19 AM" src="https://github.com/apete12/accessible-adventures/assets/104571445/36aa149a-a88b-4a42-9b83-119ae2724089"> <img width="1414" alt="Screenshot 2023-11-03 at 11 51 35 AM" src="https://github.com/apete12/accessible-adventures/assets/104571445/37e5bff5-22f8-4c18-a261-ac976823bee3">
+   | <h3 align="center">Submit Donation| <img width="1423" alt="Screenshot 2023-11-03 at 11 51 59 AM" src="https://github.com/apete12/gearUp-FE/assets/104571445/cdc302f3-5314-4fae-8a9e-ff838e21e754"> <img width="1410" alt="Screenshot 2023-11-03 at 11 52 19 AM" src="https://github.com/apete12/gearUp-FE/assets/104571445/e53fe311-4113-4957-bbd3-de32155854d2">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
